@@ -112,7 +112,7 @@ function Sidebar(collapsed, onToggle, currentPage, onPageChange) {
               <>
                 {!collapsed && (
                   <span className='font-medium ml-2'>{item.label}</span>
-                   )}            
+                   )}          
                  {item.badge &&(
                  <span className='px-4 py-1 text-xs bg-red-500 text-white- rounded-full'>
                   {item.badge}
